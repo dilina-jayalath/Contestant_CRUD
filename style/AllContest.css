@@ -1,0 +1,196 @@
+
+
+
+
+
+.frames {
+	user-select: none;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap ;
+	margin: 5% 1.5% 5% 1.5%;
+}
+
+.frames .l1 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	box-shadow: 0 0 1px #0f3b1d;
+	margin-top: 20px;
+	transform-origin: left;
+	background-color: #eeeded;
+	height: 650px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.frames .l1:hover {
+    transform: translateY(-5px);
+	
+}
+
+.frames .l1 img {
+	padding: 20px;
+	display:flex;
+	justify-content:space-around ;
+	width: 400px;
+	height: 350px;
+	border-top-left-radius: 5%;
+	border-top-right-radius: 5%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+.data{
+	margin-top: 20px;
+}
+
+.frames .l1 .text {
+	margin : 20px 0px 0px 20px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	color: #ffffff;padding: 1px;
+	background-color: rgb(5, 138, 0);
+	border-radius: 5%;
+	opacity: .9;
+	max-width: 120px;
+	font-size: medium;
+	padding: 6px 20px 6px 20px;
+}
+
+.frames .l1 .intro {
+    background: rgba(27, 27, 27, 0.8);
+    color: #fff;
+    padding: 20px;
+    height: 20px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+}
+
+.frames .l1:hover .intro {
+    height: auto;
+}
+
+.frames .l1 .intro p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.frames .l1 .intro span {
+    font-weight: bold;
+}
+
+.frames .l1 .actions {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.frames .l1 .actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.frames .l1 .actions .reject-btn {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+.frames .l1 .actions .approve-btn {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+
+
+
+
+
+.reject-btn {
+  border-radius: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.reject-btn:hover{
+  background-color: #007e06;
+}
+
+
+.reject-btn {
+  outline: none;
+}
+
+.add-btn {
+	border-radius: 10px;
+	padding: 8px 16px;
+	background-color: #0000FF;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+
+
+.approve-btn {
+  border-radius: 10px;
+  padding: 8px 16px;
+  background-color: #c92828;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.approve-btn:hover {
+  background-color: #810000;
+}
+
+.approve-btn {
+  outline: none;
+}
+
+
+.confirm-delete {
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-delete:hover {
+  background-color: #d32f2f;
+}
+
+.confirm-delete:active {
+  background-color: #b71c1c;
+}
+
+.confirm-delete:focus {
+  outline: none;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f44336;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+}
+
+
+
+
