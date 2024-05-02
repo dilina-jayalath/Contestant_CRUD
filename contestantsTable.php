@@ -73,12 +73,7 @@
   </form>
   <script>
   function confirmDelete() {
-    if (confirm("Do you want to delete?")) {
-
-      document.forms[0].submit();
-    } else {
-      document.forms[1].submit();
-    }
+    alert("Successfully Deleted!")
   }
 </script>
 
