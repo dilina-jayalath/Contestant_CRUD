@@ -53,7 +53,7 @@
     <label>Current Image</label><br>
     <?php 
     if (!empty($data["image"])) {
-        echo '<img src=" uploads/'.$data["image"] . '" alt="Current Image" style="max-width: 100px;">';
+        echo '<img src="uploads/'.$data["image"] . '" alt="Current Image" style="max-width: 100px;">';
     } else {
         echo 'No image available';
     }
@@ -64,6 +64,11 @@
     <label>Upload New Image</label>
     <input type="file" name="image">
 </div>
+
+<input type="hidden" name="current_image" value="<?php echo $data["image"]; ?>">
+
+
+
        
             
             </div>

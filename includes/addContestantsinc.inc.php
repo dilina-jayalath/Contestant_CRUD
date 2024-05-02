@@ -35,7 +35,7 @@ if (isset($_POST["submit"])) {
     }
     else {
         mysqli_stmt_execute($stmt);
-        header("Location: ../allContestants.php?error=SUCCESS");
+        header("Location: ../contestantsTable.php?error=SUCCESS");
         exit();
     }
 

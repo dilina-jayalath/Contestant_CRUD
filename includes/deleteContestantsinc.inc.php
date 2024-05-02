@@ -16,7 +16,7 @@ if($data){
 	</script>
 
 	<?php
-	header("Location: ../allContestants.php?error=none");
+	header("Location: ../contestantsTable.php?error=none");
 }
 else{
 	?>

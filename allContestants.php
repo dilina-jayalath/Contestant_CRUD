@@ -26,6 +26,8 @@
   <h1>CONTESTANTS  Details</h1>
   
   <a href='addContestants.php'><button class='approve-btn'  > Add New Contestants</button></a>
+	  
+  <a href='contestantsTable.php'><button class='approve-btn'  > EDIT Contestants</button></a>
 	
   <div class = frames >
       <?php 
@@ -45,8 +47,7 @@
                   echo "<p> Song By:  ". $data['songBy'] ." </p>";
                   echo "<p> Genres:  ". $data['genres'] ." </p>";
                   echo "<p> Released:  ". $data['released'] ." </p>";
-                  echo "<a href='editContestants.php?id=".$data["id"]."'><button class='reject-btn' >Update</button></a>&nbsp;&nbsp;<a href='includes/deleteContestantsinc.inc.php?id=".$data["id"]."'><button class='approve-btn' onclick='confirmDelete()'>Delete</button></a>";
-
+                  echo "<a href='#'><button class='reject-btn' >Watch Live</button></a>&nbsp;&nbsp;<a href='#'><button class='approve-btn' '>Vote</button></a>";
                   echo "</div>";
               echo "<div class = data>";
               echo "<span > Name: ". $data['name'] ."</span>";
@@ -64,11 +65,4 @@
 
 
 
-  <script>
-  function confirmDelete() {
-
-    alert("Successfully Deleted ");
-
-  }
-</script>
 
